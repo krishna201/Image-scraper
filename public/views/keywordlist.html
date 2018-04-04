@@ -1,0 +1,23 @@
+<div class="jumbotron text-center">
+    <h1>Keywords to find image</h1>
+
+    <!-- <p>{{ tagline }}</p> -->
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Keyword</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="item in alldata">
+
+                <td>
+                    <a class="btn btn-primary btn-block " href="/keywordlist/{{item._id}}">{{item.keyword}}</a>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+
+</div>
