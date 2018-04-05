@@ -28,7 +28,7 @@ router.get('/search', (reqj, resj) => {
     imageKeyword = reqj.query.keyword;
     google.list({
             keyword: imageKeyword,
-            num: 15,
+            num: 1,
             detail: true,
             // nightmare: {
             //     show: true
